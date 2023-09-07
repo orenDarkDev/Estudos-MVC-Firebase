@@ -1,0 +1,6 @@
+framework module Pods_ArquiteturaFirebase_MVC_ArquiteturaFirebase_MVCUITests {
+  umbrella header "Pods-ArquiteturaFirebase-MVC-ArquiteturaFirebase-MVCUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

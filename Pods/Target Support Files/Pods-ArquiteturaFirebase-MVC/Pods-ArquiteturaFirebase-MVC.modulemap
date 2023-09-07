@@ -1,0 +1,6 @@
+framework module Pods_ArquiteturaFirebase_MVC {
+  umbrella header "Pods-ArquiteturaFirebase-MVC-umbrella.h"
+
+  export *
+  module * { export * }
+}
