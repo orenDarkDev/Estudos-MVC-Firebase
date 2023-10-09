@@ -10,6 +10,7 @@
 		6912976EFABDCD878EA9E96E /* Pods_ArquiteturaFirebase_MVC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E091D8201C4F0FC1D8173D1 /* Pods_ArquiteturaFirebase_MVC.framework */; };
 		805C23D858D0A9A006EF8604 /* Pods_ArquiteturaFirebase_MVCTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7572FA620C3119DB9D60FEBA /* Pods_ArquiteturaFirebase_MVCTests.framework */; };
 		BDF271FF33C2B355900089E1 /* Pods_ArquiteturaFirebase_MVC_ArquiteturaFirebase_MVCUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B404F170B45A540E091A8AD /* Pods_ArquiteturaFirebase_MVC_ArquiteturaFirebase_MVCUITests.framework */; };
+		FA2328AA2ACDBDC40035BF9A /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FA2328A92ACDBDC40035BF9A /* GoogleService-Info.plist */; };
 		FAF81DEF2AAA591800A76104 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF81DEE2AAA591800A76104 /* AppDelegate.swift */; };
 		FAF81DF12AAA591800A76104 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF81DF02AAA591800A76104 /* SceneDelegate.swift */; };
 		FAF81DF32AAA591800A76104 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF81DF22AAA591800A76104 /* ViewController.swift */; };
@@ -53,6 +54,7 @@
 		7F6DEFCCDFD0095F9A024641 /* Pods-ArquiteturaFirebase-MVC.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ArquiteturaFirebase-MVC.release.xcconfig"; path = "Target Support Files/Pods-ArquiteturaFirebase-MVC/Pods-ArquiteturaFirebase-MVC.release.xcconfig"; sourceTree = "<group>"; };
 		AA61AA24C148B1B9B850F9FC /* Pods-ArquiteturaFirebase-MVC-ArquiteturaFirebase-MVCUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ArquiteturaFirebase-MVC-ArquiteturaFirebase-MVCUITests.release.xcconfig"; path = "Target Support Files/Pods-ArquiteturaFirebase-MVC-ArquiteturaFirebase-MVCUITests/Pods-ArquiteturaFirebase-MVC-ArquiteturaFirebase-MVCUITests.release.xcconfig"; sourceTree = "<group>"; };
 		F39199BC65814921E849EEA0 /* Pods-ArquiteturaFirebase-MVCTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ArquiteturaFirebase-MVCTests.release.xcconfig"; path = "Target Support Files/Pods-ArquiteturaFirebase-MVCTests/Pods-ArquiteturaFirebase-MVCTests.release.xcconfig"; sourceTree = "<group>"; };
+		FA2328A92ACDBDC40035BF9A /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		FAF81DEB2AAA591800A76104 /* ArquiteturaFirebase-MVC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ArquiteturaFirebase-MVC.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAF81DEE2AAA591800A76104 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FAF81DF02AAA591800A76104 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -153,6 +155,7 @@
 				FAF81E1F2AAA594D00A76104 /* Source */,
 				FAF81E1E2AAA594200A76104 /* API */,
 				FAF81DFC2AAA591B00A76104 /* Info.plist */,
+				FA2328A92ACDBDC40035BF9A /* GoogleService-Info.plist */,
 			);
 			path = "ArquiteturaFirebase-MVC";
 			sourceTree = "<group>";
@@ -348,6 +351,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FAF81DFB2AAA591B00A76104 /* LaunchScreen.storyboard in Resources */,
+				FA2328AA2ACDBDC40035BF9A /* GoogleService-Info.plist in Resources */,
 				FAF81DF82AAA591B00A76104 /* Assets.xcassets in Resources */,
 				FAF81DF62AAA591800A76104 /* Main.storyboard in Resources */,
 			);
